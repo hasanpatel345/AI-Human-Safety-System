@@ -1,0 +1,15 @@
+{
+  "camera_index": 0,
+  "restricted_zone": {
+    "x1": 200,
+    "y1": 100,
+    "x2": 450,
+    "y2": 350
+  },
+  "alert": {
+    "sound_frequency": 1000,
+    "sound_duration": 500,
+    "cooldown_seconds": 2
+  },
+  "log_file": "safety_log.csv"
+}
