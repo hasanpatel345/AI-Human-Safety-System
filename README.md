@@ -23,7 +23,7 @@ Deep Learning Model: YOLOv8 (Ultralytics)
 
 📂 Project Structure
 
-AI-Human-Safety-System/
+AI-Human-Safety-System/<br>
 │── src/ <br>
 │   └── main.py<br>
 │── model/<br>
