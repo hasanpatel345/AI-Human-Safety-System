@@ -24,13 +24,13 @@ Deep Learning Model: YOLOv8 (Ultralytics)
 📂 Project Structure
 
 AI-Human-Safety-System/
-│── src/
-│   └── main.py
-│── model/
-│   └── yolov8n.pt
-│── config.json
-│── README.md
-│── .gitignore
+│── src/ <br>
+│   └── main.py<br>
+│── model/<br>
+│   └── yolov8n.pt<br>
+│── config.json<br>
+│── README.md<br>
+│── .gitignore<br>
 
 
 ▶️ How to Run
