@@ -1,22 +1,54 @@
-# AI Human Safety System for Industrial Use
+AI Human Safety System for Industrial Use
 
-This project detects human presence in real time using computer vision and raises alerts when safety violations occur in restricted industrial zones.
+A real-time computer vision–based safety monitoring system designed to detect human presence in restricted industrial zones and trigger alerts to prevent workplace accidents.
+🚀 Key Features
 
-## Features
-- Real-time human detection using YOLOv8
-- Restricted zone monitoring
-- Audio-visual safety alerts
-- CSV-based event logging
+Real-time human detection using YOLOv8
 
-## Tech Stack
-- Python
-- OpenCV
-- YOLOv8 (Ultralytics)
+Restricted zone violation detection using bounding-box center logic
 
-## How to Run
-1. Clone the repository
-2. Create and activate virtual environment
-3. Install dependencies
-4. Run main.py from src folder
+Audio and visual alerts for immediate response
 
-Press Q to exit the camera.
+Event logging with timestamps for audit and compliance
+
+Modular and configuration-driven design
+
+🛠 Tech Stack
+
+Language: Python
+
+Computer Vision: OpenCV
+
+Deep Learning Model: YOLOv8 (Ultralytics)
+
+📂 Project Structure
+
+AI-Human-Safety-System/
+│── src/
+│   └── main.py
+│── model/
+│   └── yolov8n.pt
+│── config.json
+│── README.md
+│── .gitignore
+
+
+▶️ How to Run
+git clone https://github.com/hasanpatel345/AI-Human-Safety-System.git
+cd AI-Human-Safety-System
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+cd src
+python main.py
+
+
+Press Q to stop the camera.
+
+🔮 Future Enhancements
+
+Multi-camera support
+
+Cloud-based event storage
+
+Integration with industrial IoT systems
